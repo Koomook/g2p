@@ -20,7 +20,7 @@ try:
 except LookupError:
     nltk.download('cmudict')
 
-from train import Graph, hp, load_vocab
+from .train import Graph, hp, load_vocab
 import numpy as np
 import codecs
 import re
